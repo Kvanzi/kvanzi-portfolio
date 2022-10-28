@@ -388,6 +388,19 @@ a {
     .service__cards {
         flex-direction: column;
     }
+    .portfolio__cards-projects {
+        flex-wrap: wrap;
+    }
+    .portfolio__card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projects__btn {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
 }
 @media (max-width: 768px) {
     .header__btn {
@@ -424,20 +437,6 @@ a {
     }
     .header__list.active {
         left: 0;
-    }
-    
-    .portfolio__cards-projects {
-        flex-wrap: wrap;
-    }
-    .portfolio__card {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .projects__btn {
-        display: flex;
-        justify-content: center;
-        width: 90%;
     }
 }
 @media (max-width: 425px) {
