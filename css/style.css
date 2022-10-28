@@ -1,6 +1,5 @@
 @import "./reset.css";
 @import url("https://fonts.googleapis.com/css?family=Poppins:regular,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:regular&display=swap");
 
 :root {
     --title-color: #4C70EF;
@@ -52,8 +51,6 @@ a {
     -webkit-box-shadow: 0px 8px 15px 2px #0000001e; 
     box-shadow: 0px 8px 15px 2px #0000001e;
 }
-.header__container {
-}
 .header__content {
     padding: 18px 0px;
     display: flex;
@@ -66,13 +63,9 @@ a {
     font-size: 24px;
     line-height: 36px;
 }
-.nav {
-}
 .header__list  {
     display: flex;
     gap: 32px;
-}
-.list__item {
 }
 .list__item a {
     position: relative;
@@ -180,8 +173,6 @@ a {
 .about {
     margin-top: 106px;
 }
-.about__container {
-}
 .about__content {
     display: flex;
     align-items: center;
@@ -189,8 +180,6 @@ a {
 }
 .about__img {
     max-width: 553px;
-}
-.about__img img {
 }
 .about__info {
     max-width: 580px;
@@ -285,8 +274,6 @@ a {
 .portfolio {
     margin-top: 120px;
 }
-.porfolio__container {
-}
 .portfolio__content {
     text-align: center;
 }
@@ -334,6 +321,7 @@ a {
     object-fit: cover;
 }
 .projects__title {
+    user-select: none;
     text-align: left;
     font-weight: 600;
     font-size: 20px;
@@ -444,9 +432,6 @@ a {
         display: flex;
         justify-content: center;
         width: 90%;
-    }
-    .contact__content {
-        
     }
 }
 @media (max-width: 425px) {
