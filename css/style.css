@@ -6,6 +6,9 @@
     --subtitle-color: #B0ADAD;
     --card-bg: #292C36;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #212121;
     color: #fff;
@@ -171,6 +174,7 @@ a {
 /* ===================== ABOUT ===================== */
 
 .about {
+    scroll-margin-top: 100px;
     margin-top: 106px;
 }
 .about__content {
@@ -209,6 +213,7 @@ a {
 /* ===================== SERVICE ===================== */
 
 .service {
+    scroll-margin-top: 100px;
     margin-top: 124px;
 }
 .service__content {
@@ -272,6 +277,7 @@ a {
 /* ===================== PORTFOLIO ===================== */
 
 .portfolio {
+    scroll-margin-top: 100px;
     margin-top: 120px;
 }
 .portfolio__content {
