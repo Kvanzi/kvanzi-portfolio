@@ -27,8 +27,10 @@ if (headerBtn) {
 }
 list.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-        headerBtn.classList.toggle('active');
-        list.classList.toggle('active');
-        document.body.classList.toggle('active');
+        if (document.body.style.classList == "active") {
+            headerBtn.classList.toggle('active');
+            list.classList.toggle('active');
+            document.body.classList.toggle('active');
+        }
     })
 });
