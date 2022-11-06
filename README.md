@@ -9,3 +9,7 @@ Fully responsive website with animations. Used: HTML5, CSS3, JavaScript.
 
 ![Kvanzi-portfloio](./website-previews/preview.jpg "Desktop Demo")
 ![Kvanzi-portfloio](./website-previews/preview-2.jpg "Mobile Demo")
+
+## Contact
+
+Discord: Kvanzi#9045
