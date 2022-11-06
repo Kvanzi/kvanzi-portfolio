@@ -27,7 +27,7 @@ if (headerBtn) {
 }
 list.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-        if (document.body.style.classList == "active") {
+        if (document.body.classList.contains('active')) {
             headerBtn.classList.toggle('active');
             list.classList.toggle('active');
             document.body.classList.toggle('active');
